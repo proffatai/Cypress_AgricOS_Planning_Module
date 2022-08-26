@@ -1,5 +1,5 @@
 describe('Homescreen of planning OS', () => {
-    it('Dashboard Menu', () => {
+    it('General Settings Menu', () => {
   
       cy.visit('/')
       cy.get('#username').type('lagos.admin')
@@ -29,9 +29,12 @@ describe('Homescreen of planning OS', () => {
       i++
     }
 
-    //selecting country
-    cy.get('#companyCountry').click()
-    cy.get('.MuiMenuItem-root').should('contain', 'Nigeria')
-       
     })
+
+it('Selecting and choosing options from the list availabe', ()=>{
+  //selecting country
+  cy.get('#companyCountry').click()
+  cy.get('.MuiMenuItem-root').should('contain', 'Nigeria')
+     
+})
   })
