@@ -26,7 +26,7 @@ describe('Homescreen of planning OS', () => {
       //Checking if all the menus are present
       let i=0
       while(i<menus.length){
-        cy.get('.MuiList-padding').should('contain',menus[i]).should('contain','Dashboard').and('be.visible')
+        cy.get('.MuiList-padding').should('contain',menus[i]).and('be.visible')
         i++
       }
 
