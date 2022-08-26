@@ -29,7 +29,7 @@ describe('Homescreen of planning OS', () => {
       i++
     }
 
-    
+    //selecting country
     cy.get('#companyCountry').click()
     cy.get('.MuiMenuItem-root').should('contain', 'Nigeria')
        
