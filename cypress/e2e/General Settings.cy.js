@@ -28,13 +28,13 @@ describe('Homescreen of planning OS', () => {
     cy.get(':nth-child('+i+') > .css-1rgwm5s-MuiTypography-root').should('contain',headings[i-1]).and('be.visible')
       i++
     }
-
-    })
-
-it('Selecting and choosing options from the list availabe', ()=>{
-  //selecting country
+     //selecting country
   cy.get('#companyCountry').click()
   cy.get('.MuiMenuItem-root').should('contain', 'Nigeria')
      
-})
+//  //selecting country
+//  cy.get('#companyCountry').click()
+//  cy.get('.MuiMenuItem-root').should('contain', 'Nigeria')
+
+    })
   })
