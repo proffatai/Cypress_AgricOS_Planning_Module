@@ -1,4 +1,4 @@
-describe('Homescreen of planning OS', () => {
+describe('General Settings Page', () => {
     it('General Settings Menu', () => {
   
       cy.visit('http://planning.uat.agric-os.com/')

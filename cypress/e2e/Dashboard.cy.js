@@ -1,4 +1,4 @@
-describe('Homescreen of planning OS', () => {
+describe('Dashboard Page', () => {
   it('Dashboard Menu', () => {
 
     const menus =[

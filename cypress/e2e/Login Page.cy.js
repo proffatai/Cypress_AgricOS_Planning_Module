@@ -1,4 +1,4 @@
-describe('Planning Login Screen', ()=>{
+describe('Login Page', ()=>{
 
     let credentials;
     // importing the stored username and password
